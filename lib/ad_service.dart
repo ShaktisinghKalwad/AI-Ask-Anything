@@ -21,7 +21,7 @@ class AdService {
   /// Initialize the Mobile Ads SDK
   static Future<void> initialize() async {
     await MobileAds.instance.initialize();
-  }
+  } 
 
   /// Load an interstitial ad
   void loadInterstitialAd() {

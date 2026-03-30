@@ -17,7 +17,7 @@ Future<void> main() async {
   await AdService.initialize();
   
   runApp(const MyApp());
-}
+} 
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});

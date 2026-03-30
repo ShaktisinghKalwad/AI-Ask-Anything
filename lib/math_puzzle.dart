@@ -21,7 +21,7 @@ class _MathPuzzlePageState extends State<MathPuzzlePage> with TickerProviderStat
   int _a = 0, _b = 0;
   String _op = '+';
   int _score = 0;
-  int _streak = 0;
+  int _streak = 0; 
   int _bestStreak = 0;
   int _attempts = 0;
   int _correct = 0;

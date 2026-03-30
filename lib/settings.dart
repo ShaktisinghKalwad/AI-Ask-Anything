@@ -22,7 +22,7 @@ class _SettingsPageState extends State<SettingsPage> {
   late ThemeMode _themeMode;
   late double _fontScale;
 
-  @override
+  @override 
   void initState() {
     super.initState();
     _themeMode = widget.initialThemeMode;

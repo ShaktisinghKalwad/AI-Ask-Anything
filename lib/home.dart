@@ -20,7 +20,7 @@ class ChatMessage {
     required this.text,
     required this.isUser,
     required this.timestamp,
-    this.isFavorite = false,
+    this.isFavorite = false, 
   });
 }
 
